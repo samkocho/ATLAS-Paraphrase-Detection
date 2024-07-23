@@ -12,11 +12,13 @@ The project is organized into the following notebooks:
    
 2. **BERT.ipynb**: This notebook focuses on building and training a BERT-based model for paraphrase detection. It includes steps for tokenization, model training, evaluation, and fine-tuning.
 
-3. **ROBERTA.ipynb**: Similar to the BERT notebook, this one covers the implementation of a RoBERTa-based model. It details the process of leveraging the RoBERTa transformer for paraphrase detection tasks.
+3. **SBERT.ipynb**: This notebook demonstrates the use of Sentence-BERT (SBERT) for paraphrase detection. It covers the process of obtaining sentence embeddings using SBERT and training a classifier on these embeddings to determine if pairs of sentences are paraphrases.
 
-4. **RF_XGBoost.ipynb**: This notebook applies classical machine learning models, specifically Random Forest and XGBoost, to the paraphrase detection problem. It includes feature extraction techniques and model evaluation metrics.
+4. **ROBERTA.ipynb**: Similar to the BERT notebook, this one covers the implementation of a RoBERTa-based model. It details the process of leveraging the RoBERTa transformer for paraphrase detection tasks.
 
-5. **Gradio.ipynb**: This notebook demonstrates how to deploy the paraphrase detection model using Gradio, a Python library for building user-friendly web interfaces. It includes the creation of an interactive demo for users to test the model.
+5. **RF_XGBoost.ipynb**: This notebook applies classical machine learning models, specifically Random Forest and XGBoost, to the paraphrase detection problem. It includes feature extraction techniques and model evaluation metrics.
+
+6. **Gradio.ipynb**: This notebook demonstrates how to deploy the paraphrase detection model using Gradio, a Python library for building user-friendly web interfaces. It includes the creation of an interactive demo for users to test the model.
 
 ## Dataset
 
@@ -31,6 +33,12 @@ The dataset can be downloaded from [Microsoft Research Paraphrase Corpus](https:
 - **Tokenization**: Tokenization of sentences using BERT and RoBERTa tokenizers.
 - **Model Training**: Training the BERT and RoBERTa models on the MRPC dataset.
 - **Evaluation**: Evaluating the model performance using metrics such as accuracy, F1-score, and confusion matrix.
+
+### SBERT
+- **Sentence Embeddings**: Obtaining sentence embeddings using Sentence-BERT (SBERT).
+- **Classifier Training**: Training a classifier on the SBERT embeddings to determine if pairs of sentences are paraphrases.
+- **Evaluation**: Assessing the classifier's performance using accuracy, F1-score, and other relevant metrics.
+
 
 ### Random Forest and XGBoost
 - **Feature Extraction**: Extracting features from sentences using TF-IDF and word embeddings.
