@@ -18,7 +18,7 @@ The project is organized into the following notebooks:
 
 5. **RF_XGBoost.ipynb**: This notebook applies classical machine learning models, specifically Random Forest and XGBoost, to the paraphrase detection problem. It includes feature extraction techniques and model evaluation metrics.
 
-6. **Gradio.ipynb**: This notebook demonstrates how to deploy the paraphrase detection model using Gradio, a Python library for building user-friendly web interfaces. It includes the creation of an interactive demo for users to test the model.
+6. **Gradio.ipynb**: This notebook demonstrates how to deploy the paraphrase detection model using Gradio, a Python library for building user-friendly web interfaces. It includes the creation of an interactive demo for users to test the model. This notebook contains the final interface made for users. This contains the various methods used over the course of the project and how they compare text similarity and decide whether or not texts are paraphrased. 
 
 ## Dataset
 
